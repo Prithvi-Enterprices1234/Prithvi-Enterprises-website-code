@@ -829,6 +829,11 @@ transform: translateY(760px)translateX(-650px) scaleX(0.8) rotate(0deg);
             margin: 0 auto 1.5rem;
         }
 
+
+
+
+        
+
         .flip-card-front h3 { /* Target h3 only on the front face */
             font-size: 1.5rem;
             color: var(--primary-color);
@@ -1640,6 +1645,10 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
 }
 
 @media (max-width: 768px) {
+
+
+
+
     .carousel-slide {
         min-width: 100%; /* Ensure only one slide is visible */
     }
@@ -1665,7 +1674,8 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
 
 
 
-    
+
+
     
       .card-image {
     width: 100% !important;     
@@ -1687,7 +1697,8 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
 
 
 
-    
+
+
 }
 
         /* Custom category images */
@@ -2336,6 +2347,7 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
     .contact-info {
         text-align: center;
         margin-right: 21px;
+        
     }
     
     .footer-section ul {
@@ -2378,10 +2390,10 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
     top: 50%;
     right: 0px;
     transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.622); /* Keep the overlay transparency */
+    background: rgba(0, 0, 0, 0.726); /* Keep the overlay transparency */
     padding: 60px;
     width: 684px; /* Adjust as needed */
-    height: 600px; /* Adjust as needed */
+    height: 603px; /* Adjust as needed */
     display: flex; /* Use flexbox for vertical alignment and spacing */
     flex-direction: column;
     justify-content: center; /* Center content vertically */
@@ -2500,8 +2512,18 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
 }
 
 @media (max-width: 480px) {
+
+
+    .footer-bg-section{
+        background-color: white;
+    }
+
+
     .featured-projects-overlay {
         padding: 25px 20px;
+        height: 650px;
+        margin-top: 50px;
+        border-radius: 20px;
     }
     .projects-title {
         font-size: 22px;
@@ -2861,14 +2883,7 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
         margin-bottom: 20px;
     }
 
-    .second-card {
-        max-width: 100%; /* Take full width on very small screens */
-        border-radius: 15px; /* Slightly smaller border-radius */
-    }
 
-    .second-img {
-        height: 200px; /* Reduce image height for smaller screens */
-    }
 
     .second-content {
         padding: 20px;
@@ -2876,6 +2891,7 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
 
     .second-heading {
         font-size: 1.2rem;
+        margin-top: 0;
     }
 
     .second-desc {
@@ -2897,6 +2913,36 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
     .second-btn.next {
         right: 5px;
     }
+
+
+
+
+
+
+
+    
+    
+      .second-image {
+    width: 100% !important;     
+    height: 300px !important;    
+    max-width: 100%;
+    border-radius: 0;
+    margin-top: 0;
+    
+  }
+
+
+
+    .second-card {
+    width: 95%;                
+    height: 350px;
+  }
+
+  .second-content p{
+    display: none;
+  }
+
+
 }
 
 
@@ -2913,6 +2959,17 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
 
 
 
+
+        @media (max-width: 480px) {
+
+            .service-icon i{
+            
+            height: 50px;
+            width: 40px;
+            margin-top: 10px;
+            }
+            
+        }
 
 
 
@@ -3138,7 +3195,7 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
                         <img class="second-img" src="static/cp_casino_entrance .jpg" alt="Planters and Pots">
                         <div class="second-content">
                             <br>
-                            <h3 class="second-heading">Goa Atlanta Casino</h3>
+                            <h3 class="second-heading" style="margin-top: -25px;">Atlanta Casino - Goa</h3>
                             <br>
                             <p class="second-desc">Step into the vibrant world of Atlanta Casino in Goa, where luxury and excitement blend seamlessly. Set against Goa’s stunning backdrop, this premier destination offers an unforgettable gaming experience paired with world-class hospitality. From dazzling interiors to high-stakes tables, every moment here is crafted for thrill-seekers and connoisseurs of fine leisure alike.</p>
                         </div>
@@ -3148,7 +3205,7 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
                     <div class="second-card">
                         <img class="second-img" src="static/cp_casino_showpiece .jpg" alt="Bathroom Essentials">
                         <div class="second-content">
-                            <h3 class="second-heading">Galaxy casino Goa Panaji</h3>
+                            <h3 class="second-heading">Galaxy casino - Goa Panaji</h3>
                             <p class="second-desc">Immerse yourself in the dazzling allure of Galaxy Casino in Panaji, Goa, where modern luxury meets vibrant coastal charm. Renowned for its dynamic gaming floors and elegant ambiance, it promises an extraordinary escape into entertainment. Enjoy top-tier hospitality, live performances, and an atmosphere that captures the true spirit of Goa’s nightlife.</p>
                         </div>
                     </div>
@@ -3157,7 +3214,7 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
                     <div class="second-card">
                         <img class="second-img" src="static/cp_casino_outer.jpg" alt="Bedroom Furniture">
                         <div class="second-content">
-                            <h3 class="second-heading">Galaxy casino Goa Panaji - Exterior</h3>
+                            <h3 class="second-heading">Galaxy casino Exterior - Goa Panaji</h3>
                             <p class="second-desc">The striking exterior of Galexy Casino in Panaji stands as a beacon of style and sophistication along Goa’s vibrant coastline. Illuminated by stunning architectural lighting, it invites guests into a world of grandeur even before they step inside. With its elegant façade and lively surroundings, it perfectly sets the stage for unforgettable nights of entertainment and luxury.</p>
                         </div>
                     </div>
@@ -3166,7 +3223,7 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
                     <div class="second-card">
                         <img class="second-img" src="static/cp_goa_calangud.jpg" alt="Living Room Decor">
                         <div class="second-content">
-                            <h3 class="second-heading">Calangute Residency Goa - Upcoming Project</h3>
+                            <h3 class="second-heading">Calangute Residency Upcoming Project - Goa</h3>
                             <p class="second-desc">Introducing Calangute Residency, an upcoming gem in the heart of Goa’s most iconic beach destination. Designed to blend contemporary luxury with relaxed coastal living, this project promises exquisite architecture and thoughtfully curated spaces. Just steps away from Calangute’s vibrant shores, it’s set to redefine indulgent getaways and elevated leisure experiences in Goa.</p>
                         </div>
                     </div>
