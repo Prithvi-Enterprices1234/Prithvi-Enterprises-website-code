@@ -19,10 +19,10 @@
     /*  */
 
     /* New: Image Paths for Slideshow */
-    --img1: url('static/furniture1.jpg');
-    --img2: url('static/furniture2.jpg');
-    --img3: url('static/furniture3.jpg');
-    --img4: url('static/furniture4.jpg');
+    --img1: url('furniture1.jpg');
+    --img2: url('furniture2.jpg');
+    --img3: url('furniture3.jpg');
+    --img4: url('furniture4.jpg');
 }
 
 * {
@@ -207,22 +207,22 @@ nav {
 }
 
 .bg-slideshow div:nth-child(1) {
-    background-image: url('static/furniture1.jpg');
+    background-image: url('furniture1.jpg');
     animation-delay: 0s;
 }
 
 .bg-slideshow div:nth-child(2) {
-    background-image: url('static/furniture2.jpg');
+    background-image: url('furniture2.jpg');
     animation-delay: 8s;
 }
 
 .bg-slideshow div:nth-child(3) {
-    background-image: url('static/furniture3.jpg');
+    background-image: url('furniture3.jpg');
     animation-delay: 16s;
 }
 
 .bg-slideshow div:nth-child(4) {
-    background-image: url('static/furniture4.jpg');
+    background-image: url('furniture4.jpg');
     animation-delay: 24s;
 }
 
@@ -1230,7 +1230,7 @@ nav {
 .contact-form-section {
     flex: 1;
     /* Allows it to grow and shrink */
-    background-image: url('static/formbg.jpg');
+    background-image: url('formbg.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -1720,7 +1720,7 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
 
 .carousel-section {
     position: relative;
-    background-image: url('static/furniture4.jpg');
+    background-image: url('furniture4.jpg');
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -2330,7 +2330,7 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
 
 .footer-bg-section {
     flex: 0 0 45%;
-    background: url('static/formbg.jpg') center/cover no-repeat;
+    background: url('formbg.jpg') center/cover no-repeat;
     position: relative;
     order: 2;
 }
@@ -2981,7 +2981,7 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
 /* Base Styles (desktop first, then override for mobile) */
 .second-section {
     position: relative;
-    background-image: url('static/simple-furniture-wood.jpg');
+    background-image: url('simple-furniture-wood.jpg');
     background-size: cover;
     background-position: center;
     min-height: 800px;
@@ -3383,5 +3383,6 @@ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
         width: 40px;
         margin-top: 10px;
     }
+
 
 }
